@@ -95,20 +95,4 @@
 
 ---
 
-## 🧐 Critères d'acceptation
-
-- L’ajout du PV à `debian-vg` est confirmé par :
-  - Le doublement des Total PE dans la commande `vgs`.
-
-- La création et le montage du snapshot sont confirmés par :
-  - La présence du LV `home-snap` dans `lvs`.
-  - La liste des systèmes de fichiers montés montrant `/home-snap`.
-  - Le contenu de `/home-snap` identique à `/home`.
-
-- La suppression du snapshot est confirmée par :
-  - L’absence de `/home-snap` dans la liste des systèmes de fichiers montés.
-  - L’absence du LV `home-snap` dans `lvs`.
-
----
-
 🎉 **Challenge terminé !**
