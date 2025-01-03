@@ -1,5 +1,3 @@
-Voici un tutoriel détaillé en Markdown sur l'installation d'un système avec LVM, incluant les rappels théoriques, un exercice pratique et des expérimentations :  
-
 # 🖥️ Installation d'un système avec LVM
 
 ## 📚 Introduction
